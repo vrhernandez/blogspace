@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background: aliceblue;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: darkblue;
+    color: aliceblue;
+}
+
+.navbar {
+    font-size: 20px;
+    padding: 0.5em 0.8em;
+}
+
+h1 {
+    margin: 0;
+    font-size: inherit;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0.8em;
+    background: rgb(136, 200, 255);
+}
+
+label {
+    font-weight: bold;
+    color: darkblue;
+}
+
+input, textarea {
+    margin: 0.25em 0 1em;
+    border: none;
+    border-radius: 5px;
+    padding: 0.25em 0.5em;
+    font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid darkblue;
+    box-shadow: 0 0 3px grey inset;
+}
+
+button {
+    cursor: pointer;
+    background: darkblue;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em;
+    font-family: inherit;
+    color: aliceblue;
+}
+
+#blog-list {
+    padding: 0 0.8em;
+}
